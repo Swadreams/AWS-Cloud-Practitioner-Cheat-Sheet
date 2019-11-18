@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: gray;
+            background-image: url('./bg.jpeg');
+            font-family: 'Roboto', sans-serif;
+        }
+        .navigation {
+            background-color: #000;
+            display: block;
+            padding: 15px;
+            color: #fff;
+        }
+
+        .content-section {
+            color: #fff;
+            padding: 5%;
+            font-size: 20px;
+        }
+
+        .footer {
+            color: #fff;
+            background: #000;
+            text-align: center;
+            padding: 3%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation">
+        <div>
+            <h2> AWS Cloud Practitioner Certification Cheat Sheet</h2>
+        </div>
+    </nav>
+    <section class="content-section">
+        <div>
+                VPC Endpoints - Used to connect VPC to AWS services
+                VPC Peering - Used to connect two VPC’s
+                VPC Direct Connect - Creates a dedicated connection from on premise network to 	Amazon VPCE
+                EC2-Classing link - Link EC2 classic instances to vpc in your account within same region.
+
+                <hr>
+
+                Storage gateway - Provide on premise software appliance with AWS storage
+                Cloud Front - Content deliver network by AWS
+                
+                <hr>
+
+                AWS Batch - Service used to schedule and execute batch processing jobs
+                AWS Snowball - Petabyte scale data transport solution that uses device to transfer large amount of data
+                AWS Migration hub - provides single place to discover existing servers, plan migration and track status of each application migration
+                AWS Snowmobile - Cloud storage service designed to transfer huge amount of data by truck.
+                
+                <hr>
+
+                Dedicated instance  - Amazon EC2 instance that runs in a vpc on hardware that’s dedicated to a single customer.
+                Scheduled RI - Enable you to purchase capacity reservation that can occur on daily, monthly or weekly basis with specific start time and duration for minimum 1 year.
+                Convertible RI - Modify convertible RI into to or more reservations
+                Standard RI - for 1 year or 3 year terms/
+                <hr>
+
+                GPU based instance provide access to NVIDIA GUPs with thousands of compute cores.
+    
+                <hr>
+
+                NAT Gateways, NAT Instances, ENI's, Bastion Hosts, IPv4, IPv6, IP CIDR Blocks, VPC Wizard details, CName, Alias, A Name, A Record, Inspector, Config,
+                
+                <hr>
+                AWS Glue is a cloud service that prepares data for analysis through automated extract, transform and load (ETL) processes. ... Glue also supports MySQL, Oracle, Microsoft SQL Server and PostgreSQL databases that run on Amazon Elastic Compute Cloud (EC2) instances in an Amazon Virtual Private Cloud
+                
+                <hr>
+                AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals.
+                
+                <hr>
+                AWS CloudFormation is a service that gives developers and businesses an easy way to create a collection of related AWS resources and provision them in an orderly and predictable fashion.
+                
+                <hr>
+                Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is both human readable, and machine consumable. For AWS cloud development the built-in choice for infrastructure as code is AWS CloudFormation.
+                
+                <hr>
+                Amazon QuickSight is an Amazon Web Services utility that allows a company to create and analyze visualizations of its customers' data. 
+                
+                <hr>
+                Amazon Lightsail is an Amazon cloud service that offers bundles of cloud compute power and memory for new or less experienced cloud users
+                Amazon Lightsail will primarily allow for the development, deploying and hosting of websites and web applications 
+                
+                <hr>
+                AWS Organizations is an account management service that enables you to consolidate multiple AWS accounts into an organization that you create and centrally manage.
+               
+                <hr>
+                Amazon Connect is an open platform so it is easy to integrate with other systems such as customer relationship management (CRM) solutions or the AWS platform.
+                
+                <hr>
+                AWS Service Catalog enables organizations to create and manage catalogs of IT services that are approved for use on AWS. 
+                
+                <hr>
+                AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources.
+                AWS Config monitors configuration, not events 
+                
+                <hr>
+                AWS X-Ray is an application performance management service that enables a developer to analyze and debug applications in the Amazon Web Services (AWS) public cloud
+                
+                <hr>
+                AWS Trusted Advisor is your customized cloud expert! It helps you to observe best practices for the use of AWS by inspecting your AWS environment with an eye toward saving money, improving system performance and reliability, and closing security gaps.
+                
+                <hr>
+                AWS CodeStar is a planning and management service designed for a team of developers working on a project in the Amazon Web Services (AWS) public cloud.
+                
+                <hr>
+                AWS CodeCommit is a source code storage and version-control service for Amazon Web Services' public cloud customers. CodeCommit was designed to help IT teams collaborate on software development, including continuous integration and application delivery
+                
+                <hr>
+                Pilot Light for Quick Recovery into AWS
+                The idea of the pilot light is an analogy that comes from the gas heater. In a gas heater, a small idle flame that's always on can quickly ignite the entire furnace to heat up a house as needed.
+                <hr>
+                The term warm standby is used to describe a DR scenario in which a scaled-down version of a fully functional environment is always running in the cloud. A warm standby solution extends the pilot light elements and preparation.
+                
+                <hr>
+                Simply put, a multi-region, active-active architecture gets all the services on the client request path deployed across multiple AWS Regions.
+                
+                <hr>
+                Starting today, you can create and send daily, weekly, or monthly reports to monitor the performance of your AWS Budgets.
+                <hr>
+                Amazon Connect is an Amazon Web Services (AWS) public cloud customer contact center service. Amazon Connect enables customer service representatives to respond to phone calls or chat inquiries from end customers just as if the contact center infrastructure was set up and managed on premises.
+                <hr>
+                The AWS Directory Service is an Amazon Web Services tool that allows enables an IT administrator to run Microsoft Active Directory (AD) in the public cloud, easing setup of user and group data and giving an end user access to AWS cloud services.
+                <hr>
+                Amazon Pinpoint is a marketing and analytics service hosted on the Amazon Web Services (AWS) public cloud that enables an organization to engage with and track metrics related to its application end users’
+                <hr>
+                AWS Rekognition is a service that lets developers working with Amazon Web Services add image analysis to their applications. With AWS Rekognition your apps can detect, remember and recognize objects, scenes, and faces in images.
+                
+                <hr>
+                Amazon SWF (Simple Workflow Service) is an Amazon Web Services tool that helps developers coordinate, track and audit multi-step, multi-machine application jobs. ... Amazon SWF provides a control engine that a developer uses to coordinate work across components of distributed applications.
+                
+                <hr>
+                Amazon Route 53 is a highly available and scalable cloud Domain Name System (DNS) web service. ... Using Amazon Route 53 Traffic Flow's simple visual editor, you can easily manage how your end-users are routed to your application's endpoints—whether in a single AWS region or distributed around the globe.
+                
+                <hr>
+                The AWS Cost and Usage report tracks your AWS usage and provides estimated charges associated with your AWS account. The report contains line items for each unique combination of AWS product, usage type, and operation that your AWS account uses.
+                <hr>
+                AWS Budgets gives you the ability to set custom budgets that alert you when your costs or usage exceed (or are forecasted to exceed) your budgeted amount. You can also use AWS Budgets to set reservation utilization or coverage targets and receive alerts when your utilization drops below the threshold you define.
+                <hr>
+                AWS Cost Explorer has an easy-to-use interface that lets you visualize, understand, and manage your AWS costs and usage over time.
+                <hr>
+                AWS Trusted Advisor is your customized cloud expert! It helps you to observe best practices for the use of AWS by inspecting your AWS environment with an eye toward saving money, improving system performance and reliability, and closing security gaps.
+                
+                <hr>
+                Amazon Cognito is an Amazon Web Services (AWS) product that controls user authentication and access for mobile applications on internet-connected devices. ... An identity pool consolidates end-user information, which client access platforms, devices and operating systems receive to organize federated identity groups.
+                
+                <hr>
+                The AWS Storage Gateway service enables hybrid cloud storage between on-premises environments and the AWS Cloud. It seamlessly integrates on-premises enterprise applications and workflows with Amazon's block and object cloud storage services through industry standard storage protocols.
+                <hr>
+                The use of COST ALLOCATION TAGS AWS feature or services allows companies to track and categorize spending on a detailed level
+                
+                <hr>
+                Amazon CloudWatch is a monitoring and management service that provides data and actionable insights for AWS, hybrid, and on-premises applications and infrastructure resources. With CloudWatch, you can collect and access all your performance and operational data in form of logs and metrics from a single platform.
+                Amazon CloudWatch monitors your Amazon Web Services (AWS) resources and the applications you run on AWS in real time 
+                
+                <hr>
+                AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account.
+                CloudTrail is used to monitor logs and API activity 
+                CloudTrail is a web service that records AWS API calls for your AWS account and delivers log files to an Amazon S3 bucket. The recorded information includes the identity of the user, the start time of the AWS API call, the source IP address, the request parameters, and the response elements returned by the service. 
+                <hr>
+                CloudWatch monitors the activity of AWS resources. Cloudtrail registers the activity done by the users. 
+                
+                <hr>
+                Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon EC2 instances, containers, and IP addresses. It can handle the varying load of your application traffic in a single Availability Zone or across multiple Availability Zones. Elastic Load Balancing offers three types of load balancers that all feature the high availability, automatic scaling, and robust security necessary to make your applications fault tolerant. 
+                <hr>
+                AutoScaling does not distribute compute capacity across EC2. It automatically adjusted capacity by provisioning new EC2 instances.
+                To scale out resources based on demand 
+                <hr>
+                Scaling up adds more resources to an instance, scaling out adds more instances 
+                
+                <hr>
+                AWS API Gateway is a tool used to create and maintain application programming interfaces. 
+                CloudSearch is managed search service. 
+                AWS Managed Services allows AWS to provide management of AWS infrastructure. 
+                A Local Region is a single data center designed to complement an existing AWS Region 
+                
+                <hr>
+                With On-Demand instances you only pay for EC2 instances you use. The use of On-Demand instances frees you from the costs and complexities of planning, purchasing, and maintaining hardware and transforms what are commonly large fixed costs into much smaller variable costs. 
+                
+                <hr>
+                You can use roles to delegate access to users, applications, or services that don't normally have access to your AWS resources. 
+                <hr>
+                Groups are collections of Users which will not be appropriate for the EC2 Instance.
+                The creation of a new policy cannot ensure appropriate access. They must be attached to a User, Group or Role.
+                <hr>
+                Our TCO calculators allow you to estimate the cost savings when using AWS and provide a detailed set of reports that can be used in executive presentations. The calculators also give you the option to modify assumptions that best meet your business needs.
+                <hr>
+                Amazon QuickSight is the most appropriate service to utilise in the scenario, it is a fully-managed service that allows for insightful business intelligence reporting, with creative methods of data delivery including graphical and interactive dashboards. QuickSight includes machine learning which allows users to discover inconspicuous trends and patterns on their datasets. 
+                    
+                <hr>
+                Amazon Inspector
+                Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. Amazon Inspector automatically assesses applications for exposure, vulnerabilities, and deviations from best practices.
+                <hr>
+                Amazon Inspector enables you to analyze the behavior of your AWS resources and helps you to identify potential security issues. Using Amazon Inspector, you can define a collection of AWS resources that you want to include in an assessment target. You can then create an assessment template and launch a security assessment run of this target. 
+                
+                <hr>
+                An online resource to help you reduce cost, increase performance, and improve security by optimizing your AWS environment, Trusted Advisor provides real time guidance to help you provision your resources following AWS best practices 
+                The AWS Inspector can inspect EC2 Instances against common threats. 
+                AWS CloudFormation is a service that helps you model and set up your Amazon Web Services resources so that you can spend less time managing those resources and more time focusing on your applications that run in AWS. You create a template that describes all the AWS resources that you want (like Amazon EC2 instances or Amazon RDS DB instances), and AWS CloudFormation takes care of provisioning and configuring those resources for you. You don't need to individually create and configure AWS resources and figure out what's dependent on what; AWS CloudFormation handles all of that 
+                <hr>
+                Amazon Elastic MapReduce (EMR) is an Amazon Web Services (AWS) tool for big data processing and analysis. Amazon EMR offers the expandable low-configuration service as an easier alternative to running in-house cluster computing.
+                <hr>
+                The Total Cost of Ownership (TCO) calculator generates the potential cost savings when running resources on AWS infrastructure rather than on-premises. The calculator uses the user input values and parameters to generate the estimations. 
+                <hr>
+                
+                AWS Snowball is a service that accelerates transferring large amounts of data into and out of AWS using physical storage appliances, bypassing the Internet. Each AWS Snowball appliance type can transport data at faster-than internet speeds. This transport is done by shipping the data in the appliances through a regional carrier. The appliances are rugged shipping containers, complete with E Ink shipping labels. 
+                <hr>
+                
+                A network access control list (ACL) is an optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more subnets. You might set up network ACLs with rules similar to your security groups in order to add an additional layer of security to your VPC. 
+                
+                <hr>
+                You can use the Consolidated Billing feature to consolidate payment for multiple Amazon Web Services (AWS) accounts or multiple Amazon International Services Pvt. Ltd (AISPL) accounts within your organization by designating one of them to be the payer account. With Consolidated Billing, you can see a combined view of AWS charges incurred by all accounts, as well as get a cost report for each individual account associated with your payer account 
+                <hr>
+                Amazon Simple Notification Service (Amazon SNS) is a web service that enables applications, end-users, and devices to instantly send and receive 
+                notifications from the cloud. 
+                A policy is a JSON document that specifies what a user can do on AWS. This document consists of 
+                · Actions: what actions you will allow. Each AWS service has its own set of actions. 
+                · Resources: which resources you allow the action on. 
+                · Effect: what the effect will be when the user requests access—either allow or deny. 
+                The AWS Documentation mentions the following 
+                A policy is an entity in AWS that, when attached to an identity or resource, defines their permissions. AWS evaluates these policies when a principal, such as a user, makes a request. Permissions in the policies determine whether the request is allowed or denied 
+                <hr>
+                
+                To configure a billing alarm, the user will utilise the AWS Billing and Cost Management service in conjunction with Amazon CloudWatch to set the parameters of the alarm. 
+                <hr>
+                
+                Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups. It frees you to focus on your applications so you can give them the fast performance, high availability, security and compatibility they need. 
+                
+                <hr>
+                M Identity Federation allows access to the AWS environment using a central single sign-on (SSO) set of credentials from third-party or corporate active directory. Federation uses open standards such as SAML2.0 to transact identity information between identity provider (IdP) the respective applications. 
+                <hr>
+                
+                AWS CloudFormation gives developers and systems administrators an easy way to create and manage a collection of related AWS resources, provisioning and updating them in an orderly and predictable fashion. 
+                <hr>
+                
+                When you think of cost effectiveness, you can either have to choose Spot or Reserved instances. Now when you have a regular processing job, the best is to use spot instances and since your application is designed recover gracefully from Amazon EC2 instance failures, then even if you lose the Spot instance , there is no issue because your application can recover. 
+                <hr>
+                Amazon Route 53 provides highly available and scalable Domain Name System (DNS), domain name registration, and health-checking web services. It is designed to give developers and businesses an extremely reliable and cost effective way to route end users to Internet applications by translating names like example.com into the numeric IP addresses, such as 192.0.2.1, that computers use to connect to each other. 
+                <hr>
+                AWS Elastic Beanstalk makes it even easier for developers to quickly deploy and manage applications in the AWS Cloud. Developers simply upload their application, and Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring. 
+                
+                <hr>
+                Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an in-memory data store or cache in the cloud. The service improves the performance of web applications by allowing you to retrieve information from fast, managed, in-memory data stores, instead of relying entirely on slower disk-based databases 
+                
+                <hr>
+                Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers. 
+                Amazon EC2’s simple web service interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment. Amazon EC2 reduces the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, both up and down, as your computing requirements change. 
+                <hr>
+                
+                Amazon RDS Multi-AZ deployments provide enhanced availability and durability for Database (DB) Instances, making them a natural fit for production database workloads. When you provision a Multi-AZ DB Instance, Amazon RDS automatically creates a primary DB Instance and synchronously replicates the data to a standby instance in a different Availability Zone (AZ). Each AZ runs on its own physically distinct, independent infrastructure, and is engineered to be highly reliable. In case of an infrastructure failure, Amazon RDS performs an automatic failover to the standby (or to a read replica in the case of Amazon Aurora), so that you can resume database operations as soon as the failover is complete. 
+                
+                <hr>
+                Amazon Athena a serverless query service that uses Amazon S3 as its data source. The service is ideal for the scenario due to the ad hoc nature of the query task, thus building a database is unnecessary. The service does not need to build databases on dedicated Elastic Block Store (EBS) volumes, instead, it builds tables from data read directly from Amazon S3 bucket. 
+                <hr>
+                
+                Amazon Athena a serverless query service that does not need to build databases on dedicated Elastic Block Store (EBS) volumes, instead, it builds tables from data read directly from Amazon S3 buckets. Amazon Athena does not store any of the data. The service is compatible with the regular data formats that include CSV, JSON, ORC, AVRO and Parquet. 
+                
+                <hr>
+                AWS Config will meet the requirements of the scenario, the service allows the administrator to monitor and record configuration changes on AWS resources in their account. The service also allows the administrator to create a resource configuration inventory. 
+                <hr>
+                AWS Config can be used to keep track of configuration changes on AWS resources, keeping multiple date-stamped versions in a reviewable history. This makes it the best method to meet the scenario requirements. 
+                <hr>
+                VPC ow logs will only capture ip trac related information that is passing through and from network interfaces within the VPC. 
+                <hr>
+                
+                Using artificial intelligence (AI), machine learning (ML), natural language understanding (NLU), Amazon Macie has the capability to read documents and sift through user data for sensitive or vulnerable information that can be exploited. Information such as credit/debit card numbers, access keys in documents will trigger an alert. Amazon Macie integrates with Amazon CloudTrail to detect unusual access patterns to user data and alerts the administrator. 
+                <hr>
+                AWS Direct Connect makes it easy to establish a dedicated network connection from your premises to AWS. Using AWS Direct Connect, you can establish private connectivity between AWS and your datacenter, office, or colocation environment, which in many cases can reduce your network costs, increase bandwidth throughput, and provide a more consistent network experience than Internet-based connections. 
+                <hr>
+                
+                You can connect your VPC to remote networks by using a VPN connection. 
+                <hr>
+                An Amazon Machine Image (AMI) provides the information required to launch an instance, which is a virtual server in the cloud. You specify an AMI when you launch an instance, and you can launch as many instances from the AMI as you need. You can also launch instances from as many different AMIs as you need. 
+                <hr>
+                Amazon Simple Queue Service (Amazon SQS) offers a reliable, highly-scalable hosted queue for storing messages as they travel between applications or microservices. It moves data between distributed application components and helps you decouple these components 
+                <hr>
+                Amazon EMR helps you analyze and process vast amounts of data by distributing the computational work across a cluster of virtual servers running in the AWS Cloud. The cluster is managed using an open-source framework called Hadoop. Amazon EMR lets you focus on crunching or analyzing your data without having to worry about time-consuming setup, management, and tuning of Hadoop clusters or the compute capacity they rely on. 
+                <hr>
+                Amazon S3 Transfer Acceleration enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket. Transfer Acceleration takes advantage of Amazon CloudFront’s globally distributed edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path. 
+                
+                <hr>
+                There are two conventional architectures in which to deploy the Amazon Redshift data warehouse, as a single node which handles both client session and computations. The second as a multi node deployment. The latter consists of a leader node which receives queries and manages client connections to the database warehouse, whilst one or more compute nodes will store data and perform computations. 
+                <hr>
+                Amazon Aurora (Aurora) is a fully managed, MySQL- and PostgreSQL-compatible, relational database engine. It combines the speed and reliability of high- end commercial databases with the simplicity and cost-effectiveness of open-source databases. It delivers up to five times the throughput of MySQL and up to three times the throughput of PostgreSQL without requiring changes to most of your existing applications 
+                
+                <hr>
+                * AWS Shield Standard is inherently available within the AWS WAF service at no extra cost  
+                * AWS WAF is a web application firewall that includes AWS Shield - a service that prevents distributed denial of service (DDoS) attacks  
+                <hr>
+                Subnetwork or subnet is a logical subdivision of an IP network. The practice of dividing a network into two or more networks is called subnetting.AWS provides two types of subnetting one is Public which allow the internet to access the machine and another is private which is hidden from the internet.
+                <hr>
+                
+                Geolocation routing policy is particularly necessary when traffic to the hosted resources is meant to be routed according to originating source address. 
+                weighted routing policy can distribute request traffic amongst resources 
+                latency-based routing policy allows for queries to be served by the resources that have the smallest response times to the user’s location. 
+                <hr>
+                
+                * Through observing Amazon CloudTrail logs, Amazon Macie is able to detect if a permitted user is accessing data that they seldom do.  
+                Using artificial intelligence (AI), Amazon Macie can be able to alert the administrator of sensitive information in a document residing in an S3 bucket. 
+                
+                <hr>
+                Amazon Inspector services allows you to analyze EC2 Instances against pre-defined security templates to check for vulnerabilities 
+                <hr>
+                Amazon Athena a serverless query service that uses Amazon S3 as its data source. The service is ideal for the scenario due to the ad hoc nature of the query task, thus building a database is unnecessary. The service does not need to build databases on dedicated Elastic Block Store (EBS) volumes, instead, it builds tables from data read directly from Amazon S3 bucket. 
+                
+                <hr>
+                Disaster recover systems : 
+                1.  Multi Site
+                2. Warm standby
+                3. Pilot light
+                4. Backup and restore
+                <hr>
+                
+                
+                SES - Simple Email Service
+                <hr>
+                
+        </div>
+    </section>
+
+    <footer class="footer">
+       <h3> Best of luck for the EXAM. </h3>
+    </footer>
+</body>
+</html>
